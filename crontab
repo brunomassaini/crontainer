@@ -1,0 +1,7 @@
+SHELL=/bin/bash
+LC_ALL="C.UTF-8"
+LANG="C.UTF-8"
+PATH="/usr/local/bin:/root/.local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/opt/aws/bin"
+
+# Cron-tainer heartbeat
+* * * * * root /scripts/tools/cron_log.sh
