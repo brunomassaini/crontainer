@@ -1,5 +1,7 @@
 FROM ubuntu:16.04
 
+MAINTAINER brunomassaini@gmail.com
+
 ENV LC_ALL "C.UTF-8"
 ENV LANG "C.UTF-8"
 ENV PATH "/usr/local/bin:/root/.local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/opt/aws/bin"
